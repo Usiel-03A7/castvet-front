@@ -81,12 +81,13 @@ export default function Contact() {
         <div className="rounded-lg overflow-hidden shadow-xl">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3767.311302269681!2d-103.73981055924101!3d19.225260047342566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDEzJzMwLjkiTiAxMDPCsDQ0JzE0LjEiVw!5e0!3m2!1ses-419!2smx!4v1744742265886!5m2!1ses-419!2smx"
-            width="600"
+            width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
+
           </iframe>
         </div>
       </div>
