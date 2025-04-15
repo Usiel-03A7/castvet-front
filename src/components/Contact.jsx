@@ -65,7 +65,7 @@ export default function Contact() {
               </li>
               <li className="flex items-start">
                 <span className="text-blue-600 mr-2">📧</span>
-                <span>Email: <a href="mailto:contacto@veterinariacastrejon.com" className="hover:underline">contacto@veterinariacastrejon.com</a></span>
+                <span>Email: <a href="mailto:castrejonvanessa747@gmail.com" className="hover:underline">castrejonvanessa747@gmail.com</a></span>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-600 mr-2">📍</span>
@@ -73,22 +73,21 @@ export default function Contact() {
               </li>
               <li className="flex items-start">
                 <span className="text-blue-600 mr-2">🕒</span>
-                <span>Horario: Lunes a Viernes 8:00 AM - 6:00 PM</span>
+                <span>Horario: Lunes a Viernes 8:00 AM - 2:00 PM 4:00 PM - 7:00pm</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="rounded-lg overflow-hidden shadow-xl">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3767.312383139312!2d-103.7373423757493!3d19.22521290902495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1744737126841!5m2!1ses-419!2smx"
-            width="100%"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3767.311302269681!2d-103.73981055924101!3d19.225260047342566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDEzJzMwLjkiTiAxMDPCsDQ0JzE0LjEiVw!5e0!3m2!1ses-419!2smx!4v1744742265886!5m2!1ses-419!2smx"
+            width="600"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Ubicación Clínica Veterinaria Castrejón"
-          ></iframe>
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
     </section>
