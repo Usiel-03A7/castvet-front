@@ -2,7 +2,7 @@ import { FaWhatsapp, FaPhoneAlt, FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 
 export default function Contact() {
   // Datos configurables
-  const phoneNumber = "521234567890"; // Sin el símbolo +
+  const phoneNumber = "523122714606"; // Sin el símbolo +
   const defaultMessage = "Hola, quisiera información sobre sus servicios veterinarios.";
   const address = "Av. Liceo de varones #132, Col. Bosques del Sur";
   const hours = "Lunes a Viernes 9:00 AM - 6:00 PM";
