@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Services from "./components/Services"; // Crea este componente similar
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
+    <div className="font-sans">
       <Navbar />
-    </>
-  )
+      <Hero />
+      <About />
+      <Services />
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
-
-export default App
