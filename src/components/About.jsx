@@ -10,7 +10,7 @@ export default function About() {
           {/* Foto de Vanessa */}
           <div className="md:w-1/3">
             <img
-              src="/vanessa.jpg"  // Reemplaza con su foto real
+              src="/profile.jpeg"
               alt="MVZ Vanessa Lizet Castrejón Ruiz"
               className="rounded-full w-64 h-64 object-cover border-4 border-blue-200 mx-auto"
             />
@@ -22,7 +22,7 @@ export default function About() {
               MVZ. Vanessa Lizet Castrejón Ruiz
             </h3>
             <p className="text-gray-600 mb-4">
-              Médica Veterinaria Zootecnista con <strong>4 años de experiencia</strong> en cuidado 
+              Médica Veterinaria Zootecnista con <strong>6 años de experiencia</strong> en cuidado
               de animales de compañía y atención clínica.
             </p>
             <ul className="space-y-2 mb-6">
@@ -30,17 +30,11 @@ export default function About() {
                 <span className="bg-blue-100 p-1 rounded-full mr-2">
                   ✅
                 </span>
-                Egresada de la Universidad Autónoma de...
-              </li>
-              <li className="flex items-center">
-                <span className="bg-blue-100 p-1 rounded-full mr-2">
-                  ✅
-                </span>
-                Especializada en cirugía de tejidos blandos.
+                Egresada de la Universidad de Colima, facultad de medicina veterinaria y zootecnia.
               </li>
             </ul>
             <p className="text-gray-600">
-              En <strong>Clínica Veterinaria Castrejón</strong> nos apasiona brindar 
+              En <strong>Clínica Veterinaria Castrejón</strong> nos apasiona brindar
               atención personalizada y tratamientos éticos.
             </p>
           </div>

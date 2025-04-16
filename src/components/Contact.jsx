@@ -5,7 +5,8 @@ export default function Contact() {
   const phoneNumber = "523122714606"; // Sin el símbolo +
   const defaultMessage = "Hola, quisiera información sobre sus servicios veterinarios.";
   const address = "Av. Liceo de varones #132, Col. Bosques del Sur";
-  const hours = "Lunes a Viernes 9:00 AM - 6:00 PM";
+  const hours = "Lunes a Viernes 9:00 AM - 2:00 PM - 4:00 PM - 7:00 PM ";
+  const hoursweekend = "Sábados 9:00 AM - 2:00 PM";
 
   return (
     <section id="contacto" className="py-20 bg-gray-50">
@@ -50,10 +51,10 @@ export default function Contact() {
                 <div>
                   <p className="font-medium text-gray-800">Teléfono</p>
                   <a
-                    href={`tel:+52${phoneNumber}`}
+                    href={`tel:+52 ${phoneNumber}`}
                     className="text-gray-600 hover:text-blue-600 hover:underline"
                   >
-                    +52 {phoneNumber.match(/.{1,3}/g)?.join(' ')}
+                    +{phoneNumber.match(/.{1,2}/g)?.join(' ')}
                   </a>
                 </div>
               </li>
@@ -75,6 +76,7 @@ export default function Contact() {
                 <div>
                   <p className="font-medium text-gray-800">Horario</p>
                   <p className="text-gray-600">{hours}</p>
+                  <p className="text-gray-600">{hoursweekend}</p>
                 </div>
               </li>
             </ul>

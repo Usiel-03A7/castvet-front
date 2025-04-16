@@ -12,7 +12,7 @@ export default function Services() {
     },
     {
       icon: "💉",
-      title: "Vacunación",
+      title: "Medicina preventiva",
       description: "Esquemas de vacunación personalizados."
     },
     {
