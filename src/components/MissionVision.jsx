@@ -20,8 +20,6 @@ export default function MissionVision() {
             <p className="text-gray-700 text-lg leading-relaxed">
               <span className="block font-semibold mb-2">La misión de la Clínica Veterinaria Castrejón</span>
               es difundir la excelencia médica con el objetivo de mejorar la salud y el bienestar de los animales.
-              Nos comprometemos a brindar atención compasiva y profesional, utilizando tecnología de vanguardia
-              y manteniendo los más altos estándares éticos en cada consulta.
             </p>
           </div>
 
@@ -37,10 +35,8 @@ export default function MissionVision() {
               <h3 className="text-2xl font-bold text-gray-800">Visión</h3>
             </div>
             <p className="text-gray-700 text-lg leading-relaxed">
-              <span className="block font-semibold mb-2">Ser una Clínica Veterinaria con reconocimiento estatal</span>
-              como referencia en calidad de servicios, logrado a través de capacitación continua, disciplina
-              y trabajo en equipo. Aspiramos a ser el centro veterinario preferido por las familias,
-              donde cada mascota reciba el mismo amor y cuidado que en su hogar.
+              <span className="block font-semibold mb-2">Ser una Clínica Veterinaria con reconocimiento y referencia estatal</span>
+              por la calidad en los servicios que proporcionamos; logrados a través de la capacitación, disciplina, trabajo y esfuerzo.
             </p>
           </div>
         </div>
